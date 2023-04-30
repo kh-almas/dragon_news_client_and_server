@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const HeaderDesign = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" className="mt-3">
             <Container fluid>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
